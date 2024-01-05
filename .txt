@@ -1,0 +1,43 @@
+Flex box container property:
+
+             (These all are container property not item property)
+
+border: 2px solid red;
+margin: 50px;
+padding: 15px;
+display: flex;
+height: 80vh;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+flex-direction: column-reverse;
+flex-direction: row;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+flex-flow: row wrap;
+flex-flow: row wrap-reverse;
+flex-flow: column wrap;
+flex-flow: column wrap-reverse;
+gap: 9px;
+row-gap: 60px;
+column-gap: 60px;
+gap: 60px 10px;
+
+
+
+
+Flexbox item property:
+
+             (These all are item property not container property)
+
+
+             
+flex-grow: 150;     by default flexgrow is 0
+
+flex-shrink: 2;
+align-self: flex-end;
+.order-1{
+    order: 10;      by default order is 0
+}
