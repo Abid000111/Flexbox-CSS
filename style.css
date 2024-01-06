@@ -98,3 +98,16 @@ main {
 .order-10 {
     order: 1;
 }
+
+
+.box{
+    border: 2px solid black;
+    height: 25vh;
+    width: 50vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+}
